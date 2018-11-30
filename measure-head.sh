@@ -20,7 +20,7 @@ measure_code() {(
 )}
 
 get_constant() {(
-  compile "$1" 2>&1 | sed -n -E 's/.*SHOW_IN_ERRORS<(.*)>.*/\1/p'
+  compile "$1" 2>&1 | sed -n -E 's/.*SHOW_IN_ERRORS<(.*)>.*/\1/p' | head -n1
 )}
 
 echo -n "$(git -C "$REPOSITORY" describe),"
