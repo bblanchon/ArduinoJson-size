@@ -1,4 +1,5 @@
 Commit,Date,ReferenceObjectSize,JsonParserExample,JsonGeneratorExample,MsgPackParser,StringExample,ProgmemExample
+v6.21.0,2023-03-14,40,6762,5574,7088,10686,6480
 v6.20.0,2022-12-26,40,6784,5588,7110,10728,6512
 v6.19.4,2022-04-05,40,6740,5560,7142,10968,6312
 v6.19.3,2022-03-08,40,6740,5560,7142,10968,6312
