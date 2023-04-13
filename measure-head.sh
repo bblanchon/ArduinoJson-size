@@ -4,7 +4,7 @@ set -eu
 
 cd "$(dirname "$0")"
 
-PATH="$PATH:/c/Program Files (x86)/Arduino/"
+PATH="$PATH:/c/Program Files/Arduino CLI/"
 REPOSITORY="$(pwd)/libraries/ArduinoJson"
 EXAMPLES_DIR="$REPOSITORY/examples"
 
